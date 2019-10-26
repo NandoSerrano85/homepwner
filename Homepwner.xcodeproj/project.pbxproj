@@ -15,6 +15,8 @@
 		FDBA732B2364B66B00B7DFBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDBA73292364B66B00B7DFBE /* LaunchScreen.storyboard */; };
 		FDBA73362364B66C00B7DFBE /* HomepwnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBA73352364B66C00B7DFBE /* HomepwnerTests.swift */; };
 		FDBA73412364B66C00B7DFBE /* HomepwnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBA73402364B66C00B7DFBE /* HomepwnerUITests.swift */; };
+		FDBA734F2364B79400B7DFBE /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBA734E2364B79400B7DFBE /* ItemViewController.swift */; };
+		FDBA73512364B8E100B7DFBE /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBA73502364B8E100B7DFBE /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		FDBA733C2364B66C00B7DFBE /* HomepwnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomepwnerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDBA73402364B66C00B7DFBE /* HomepwnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepwnerUITests.swift; sourceTree = "<group>"; };
 		FDBA73422364B66C00B7DFBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDBA734E2364B79400B7DFBE /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		FDBA73502364B8E100B7DFBE /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				FDBA731E2364B66A00B7DFBE /* AppDelegate.swift */,
+				FDBA73502364B8E100B7DFBE /* Item.swift */,
 				FDBA73202364B66A00B7DFBE /* SceneDelegate.swift */,
 				FDBA73222364B66A00B7DFBE /* ViewController.swift */,
 				FDBA73242364B66A00B7DFBE /* Main.storyboard */,
 				FDBA73272364B66B00B7DFBE /* Assets.xcassets */,
 				FDBA73292364B66B00B7DFBE /* LaunchScreen.storyboard */,
 				FDBA732C2364B66B00B7DFBE /* Info.plist */,
+				FDBA734E2364B79400B7DFBE /* ItemViewController.swift */,
 			);
 			path = Homepwner;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDBA73512364B8E100B7DFBE /* Item.swift in Sources */,
 				FDBA73232364B66A00B7DFBE /* ViewController.swift in Sources */,
+				FDBA734F2364B79400B7DFBE /* ItemViewController.swift in Sources */,
 				FDBA731F2364B66A00B7DFBE /* AppDelegate.swift in Sources */,
 				FDBA73212364B66A00B7DFBE /* SceneDelegate.swift in Sources */,
 			);
