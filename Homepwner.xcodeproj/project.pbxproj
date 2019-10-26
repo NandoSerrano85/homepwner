@@ -17,6 +17,7 @@
 		FDBA73412364B66C00B7DFBE /* HomepwnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBA73402364B66C00B7DFBE /* HomepwnerUITests.swift */; };
 		FDBA734F2364B79400B7DFBE /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBA734E2364B79400B7DFBE /* ItemViewController.swift */; };
 		FDBA73512364B8E100B7DFBE /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBA73502364B8E100B7DFBE /* Item.swift */; };
+		FDBA73532364C17500B7DFBE /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBA73522364C17500B7DFBE /* ItemStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		FDBA73422364B66C00B7DFBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDBA734E2364B79400B7DFBE /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
 		FDBA73502364B8E100B7DFBE /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		FDBA73522364C17500B7DFBE /* ItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				FDBA731E2364B66A00B7DFBE /* AppDelegate.swift */,
 				FDBA73502364B8E100B7DFBE /* Item.swift */,
+				FDBA73522364C17500B7DFBE /* ItemStore.swift */,
 				FDBA73202364B66A00B7DFBE /* SceneDelegate.swift */,
 				FDBA73222364B66A00B7DFBE /* ViewController.swift */,
 				FDBA73242364B66A00B7DFBE /* Main.storyboard */,
@@ -267,6 +270,7 @@
 			files = (
 				FDBA73512364B8E100B7DFBE /* Item.swift in Sources */,
 				FDBA73232364B66A00B7DFBE /* ViewController.swift in Sources */,
+				FDBA73532364C17500B7DFBE /* ItemStore.swift in Sources */,
 				FDBA734F2364B79400B7DFBE /* ItemViewController.swift in Sources */,
 				FDBA731F2364B66A00B7DFBE /* AppDelegate.swift in Sources */,
 				FDBA73212364B66A00B7DFBE /* SceneDelegate.swift in Sources */,
